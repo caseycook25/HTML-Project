@@ -1,0 +1,124 @@
+html {
+	background-color: #4F6D93;
+}
+header, main, nav, footer, #content {
+	display: block;
+}
+header {
+	height: 100px;
+	padding: 0;
+	background-image: url(images/clouds.jpg);
+	background-size: 500px 500px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+h1 {
+	margin: 0 0 0 2em;
+	padding: 25px 0 0 0;
+	font-family: sans-serif;
+	vertical-align: middle;
+	color: #FFFFFF;
+	font-size: 45px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
+}
+#content {
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+	width: 892px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+nav {
+	margin-top: 10px;
+	float: left;
+	width: 250px;
+}
+
+nav li {
+	font-size: 25px;
+	list-style-type: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+nav ul {
+	padding: 0 0 0 10px;
+}
+
+nav a {
+	text-decoration: none;
+}
+nav a:link {
+	color: #107896;
+}
+nav a:visited {
+	color: #107896;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+main {
+	margin-left: 250px;
+	padding: 0 10px 10px 10px;
+	background-color: #FFFFFF;
+
+}
+footer {
+	text-align: center;
+	padding: 10px;
+	border-bottom-right-radius: 5px;
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding-top: 10px; 
+}
+
+main p {
+	margin-left: 25px;
+}
+hr {
+	margin-top: 0;
+	padding-top: 0;
+}
+footer {
+	margin-left: 250px;
+	background-color: #FFFFFF;
+}
+footer p {
+	font-size: 15px;
+	font-style: italic;
+}
+
+h3 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+ul {
+	margin-top: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #F88017;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+#hero {
+	height: 300px;
+	padding: 0;
+	margin: 0 0 0 250px;
+	background-image: url(images/cleaning.jpg);
+	background-size: 640px 426px;
+	background-repeat: no-repeat;
+}
